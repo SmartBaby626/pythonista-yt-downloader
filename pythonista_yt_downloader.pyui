@@ -1,0 +1,161 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 14}, {327, 129}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "WB",
+          "name" : "label1",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{45, 104}, {150, 32}}",
+          "uuid" : "1004B403-AD7B-4FA0-AB21-A5B7174C507A",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Youtube Downloader",
+          "number_of_lines" : 2,
+          "font_size" : 48,
+          "font_name" : "AmericanTypewriter-Bold"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 505}, {327, 57}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "81218CB5-2331-4640-B5F0-D61098E86FD2",
+          "font_size" : 15,
+          "corner_radius" : 6,
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{80, 104}, {80, 32}}",
+          "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "border_width" : 2,
+          "border_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "title" : "Download",
+          "action" : "generateTapped",
+          "class" : "Button",
+          "name" : "button1",
+          "flex" : "WT"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 119}, {327, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "LR",
+          "name" : "label2",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{118, 334}, {150, 32}}",
+          "uuid" : "4B0AB186-FCD3-44EC-A82B-737C7393BABC",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "_________________________________",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 199}, {327, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "flex" : "WLR",
+          "name" : "textfield1",
+          "frame" : "{{70, 293}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "AAF111CF-4AFC-465B-A25C-C31E350421C6",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 159}, {150, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "WLR",
+          "name" : "label3",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{95, 293}, {150, 32}}",
+          "uuid" : "36C6D558-1244-446D-89F3-BA66896045BE",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "URL:",
+          "font_size" : 27,
+          "font_name" : "AmericanTypewriter"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 248}, {327, 49}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "WLR",
+          "font_size" : 32,
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{95, 293}, {150, 32}}",
+          "uuid" : "977A680F-93D5-42E2-A19D-BCFF10981432",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "NOTE:",
+          "name" : "label4",
+          "font_name" : "AmericanTypewriter-Bold"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 282}, {327, 134}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "WLR",
+          "name" : "label5",
+          "text_color" : "RGBA(1.000000,0.954545,0.937500,1.000000)",
+          "frame" : "{{95, 293}, {150, 32}}",
+          "uuid" : "CF92110E-FCA3-417F-99A0-F2E9550B0FC5",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "As Pythonista does not work well with ffmpeg, the audio and video files are downloaded separately. These must be merged in a third-party software such as iMovie.",
+          "font_size" : 20,
+          "font_name" : "AmericanTypewriter"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {339, 617}}",
+    "class" : "View",
+    "attributes" : {
+      "name" : "Youtube Downloader",
+      "enabled" : true,
+      "background_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
